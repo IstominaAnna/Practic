@@ -1,0 +1,27 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="~/Content/Style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="head">
+            <div class="buttonleft">
+                <button type="button" onclick="history.back();" style=" font-weight: bold; font-size: 20px;border-radius: 5px;"> Назад</button>
+            </div>
+            <div class="headtext">MARATHON SKILLS 2016</div>
+            <div class="buttonright"><button type="button" onclick="location.href='http://google.com';" style=" font-weight: bold;font-size: 20px;border-radius: 5px;">Logout</button></div>
+        </div>
+        <div>
+            @RenderBody()
+
+        </div>
+    </div>
+</body>
+</html>
+
+

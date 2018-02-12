@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Управление бегунами";
+}
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/Content/Style.css">
+
+</head>
+
+<body>
+
+    <h1 class="mymain">Управление бегунами</h1>
+    <div class="leftblock">
+        
+            <h2>Сортировка и фильтрация</h2>
+            <table>
+                <tr>
+                    <td><h3>Статус:</h3></td>
+                    <td>
+                        <select>
+                            <option>Зарегистрирован</option>
+                            <option>Подтверждена оплата</option>
+                            <option>Выдан пакет</option>
+                            <option>Вышел на старт</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h3>Дистанция:</h3></td>
+                    <td>
+                        <select>
+                            <option>Полный марафон</option>
+                            <option>Полумарафон</option>
+                            <option>5km забег</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h3>Сортировать:</h3></td>
+                    <td>
+                        <select>
+                            <option>Имя</option>
+                            <option>Фамилия</option>
+                            <option>Email</option>
+                            <option>Статус</option>
+                        </select>
+                    </td>
+                    <td><button type="button" onclick="http://google.com" style =" width:150px"class="buttunstyle  "> Обновить</button></td>
+                </tr>
+            </table>
+        
+    </div>
+    <div class="rightblock">
+        <h2>Выгрузка</h2>
+        <table>
+            <tr><td><button type="button" onclick="http://google.com" class="buttunstyle  "> Детальная информация (CSV)</button></td></tr>
+            <tr><td><button type="button" onclick="http://google.com" class=" buttunstyle"> Email</button></td></tr>
+        </table>
+    </div>
+    <div style = "margin-top:325px; text-align: center;">
+        <h3> Total runners: -</h3>
+    </div>
+</body>

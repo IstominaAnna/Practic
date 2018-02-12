@@ -1,0 +1,191 @@
+﻿
+.mymain {
+   
+    text-align: center;
+    font-family: Arial;
+    color: #505050;
+    
+}
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Arial;
+}
+select {
+    width: 300px; /* Ширина списка в пикселах */
+    height: 25px;
+}
+.buttunstyle {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 10px;
+    background: #ebebeb;
+    color: #505050;
+}
+.block {    
+    margin-right: -20%;
+    margin: 0;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.head {
+    background-color: black;
+    background-position: center;
+    height: 50px;
+}
+.buttonleft {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.headtext {
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+    color: #f0f2ea;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+.buttonright {
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+}
+.menu .text_top {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    position: relative
+}
+
+
+.desB {
+    text-decoration: none; /* Убираем подчёркивание у ссылки */
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 20px;
+    height: 170px;
+    width: 500px;
+    text-align: center;
+    background: #00903e;
+    border-radius: 10px;
+    color: #ffffff;
+    font: 50px/3 Arial, sans-serif;
+}
+.leftblock {
+    
+    margin-left: 100px;
+    float: left;
+    text-align: right;
+    font-family: Arial;
+    color: #505050;
+    padding: 5px;
+}
+.leftb {
+    text-align: right;
+    font-family: Arial;
+    margin-left: 100px;
+    background-color: #fc0; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 70px; /* Ширина слоя */
+}
+.lef {
+    background-color: #c0c0c0; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    width: 300px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+}
+    .lef p {
+        text-align: left
+    }
+    .rightblock {
+    font-family: Arial;
+    float: right;
+    right: 30px;
+    margin-right: 100px;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    color: #505050;
+}
+/*.rightbl {
+    font-family: Arial;
+    float: right;
+    right: 30px;
+    margin-right: 100px;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    color: #505050;
+}*/
+.text_top {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    position: relative
+}
+.left {
+    text-align: right;
+    margin-left: 150px;
+    height: 350px;
+    width: 400px;
+    float: left;
+}
+
+    .left input {
+        width: 200px;
+        margin-right: 0%;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    .left select {
+        width: 200px;
+        margin-right: 0%;
+        box-sizing: border-box;
+        float: right;
+    }
+
+    .left span {
+        width: 200px;
+        margin-right: 0%;
+        text-align: left;
+        box-sizing: border-box;
+        float: right;
+    }
+
+.right .img {
+        margin-right: 100px;
+        float: right;
+    }
+
+
+.password {
+    text-align: center;
+    margin-top: 10px;
+    float: right;
+    margin-right: 0%;
+}
+
+    .password label {
+        text-align: right;
+    }
+
+    .password input {
+        width: 200px;
+        margin-right: 0%;
+        text-align: left;
+        box-sizing: border-box;
+        float: right;
+    }
+
+.buttons {
+    margin-top: 350px;
+}

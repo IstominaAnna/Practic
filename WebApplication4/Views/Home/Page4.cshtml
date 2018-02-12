@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Управление бегуном";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <link rel="stylesheet" href="~/Content/Style.css">
+</head>
+<body>    
+        <div class="menu">
+            <div class="text_top">Управление бегуном</div>
+            <div class="left">
+                <p>Email: <span>emeil.com</span></p>
+                <p><label for="name">Имя:</label><input type="text" id="name" name="name" required="true"></p>
+                <p><label for="name">Фамилия:</label><input type="text" id="name" name="name" required="true"></p>
+
+                <p>
+                    <label for="pol">Пол:</label><select>
+                        <option value="K1">мужской</option>
+                        <option value="K2">женский</option>
+
+                    </select>
+                </p>
+                <p><label for="date">Дата рождения:</label><input type="date" id="date" name="date" required="true"></p>
+                <p>
+                    <label>Страна</label><select>
+                        <option value="K1">Уганда</option>
+                        <option value="K2">Бразилия</option>
+                        <option value="K3">США</option>
+                        <option value="K4">Россия</option>
+
+                    </select>
+                </p>
+                <p><h3>Регистрационный статус</h3></p>
+                <p>
+                    <select>
+                        <option>Оплата подтверждена</option>
+                        <option>Оплата неподтверждена</option>
+                    </select>
+                </p>
+            </div>
+            <div class="rightblock">
+                <div class="img">
+                    <img scr = "~/Content/img.png" alt="img">
+                </div>
+                <div class="form">
+                    <p>Фото файл:</p>
+                    <p>
+                        <input type="file" name="photo" multiple accept="image/*,image/jpeg">
+                    </p>
+                </div>
+                <div class="password">
+                    <h3>Смена пароля</h3>
+                    <p>Оставьте эти поля незаполненными, </p>
+                    <p>если вы не хотите изменять пароль</p>
+                    <p><label for="name">Пароль:</label><input type="text" id="name" name="name" required="true"></p>
+                    <p><label for="name">Повтор пароля:</label><input type="text" id="name" name="name" required="true"></p>
+                </div>
+
+                <div class="buttons">
+                    <button type="button"  style="  font-weight: bold; font-size: 20px;"> Сохранить</button>
+                    <button type="button"  style="  font-weight: bold; font-size: 20px;"> Отмена</button>
+                </div>
+
+            </div>
+</body>
+</html>
+
